@@ -1,0 +1,26 @@
+body {
+    height: 64rem;
+    width: 48rem;
+    background-image: url(Archivos//Fondo\ de\ ruleta.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#play {
+    background-color: rgba(11, 119, 41, 0.48);
+    height: 1.6875rem;
+    width: 5rem;
+    border: top width 1px;
+    border-color: white;
+    border-radius: 0.625rem;
+    color: white;
+
+    
+}
+
+.player {
+    width: 4.375rem;
+    height: 4.375rem;
+    background-color: aqua;
+
+}
