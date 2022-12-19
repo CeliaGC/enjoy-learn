@@ -4,14 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La Garra de la Suerte</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/roulette.css" />
+    <link rel="stylesheet" href="styles/newPlayer.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+    rel="stylesheet"/>
     <link rel="stylesheet" href="stylesheet.css">
+        <title>La Garra de la Suerte</title>
 </head>
 <body>
+    <div class="container-main">
+        <audio src="" id="elegidoSoud"></audio>
+        <audio src="" id=""></audio>
+
+
+        <div id="root">
+        <header class="header">
+        <h1>La Garra de la Suerte</h1>
+        <div class="buttons"></div>
+            <figure class="plusButton">
+                <img src="./Archivos/Marciano1.png" alt="">
+        </figure>
+        <figure class="trashButton">
+        <img src="./Archivos/delete+remove+trash+trash+bin+trash+can+icon-1320073117929397588_512.png" 
+        alt="trash icon" height=" 30px" width="30px"/>
+        
+    </figure>
+</div>
+</header>
+<div class="move">
     <main>
-        <section>players</section>
-        <section>buttons</section>
+        <section class="coders-display">
+            <ul class="coders-list"></ul>
+        </section>
     </main>
-    <footer><h1>La Garra de la Suerte</h1></footer>
+    <footer>
+    <section class="foot-part-1">
+        <button class="btn1">PLAY</button>  
+        <figure class="fig">
+            <img src="" alt="">
+        </figure>
+        <button class="btn2">RESET</button>
+        </section>
+    <section class="slider"></section>
+</footer>
+</div>  
+    <script src="./stylesheet.js"></script>
+    <script src="./botonadd.js"></script>
+    <script src="./botonDelete.js"></script>
+    <script src="./createPlayers.js"></script>
+    <script src="./gameFlow.js"></script>
+    <script src="./list.js"></script>
+    <script src="./newPlayerRecord.js"></script>
+    <script src="./photoArray.js"></script>
+    <script src="./randomNumber.js"></script>
+    </div>
 </body>
 </html>

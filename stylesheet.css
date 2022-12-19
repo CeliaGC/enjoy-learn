@@ -1,0 +1,18 @@
+body{
+    background-image: url(./Archivos/Fondo\ de\ ruleta.webp);                
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: display;
+    background-attachment: fixed;
+    background-position-y: center; 
+    background-origin: content-box;
+    padding: 10px;
+    height: 100%;
+    width: 100%
+
+} 
+
+
+ 
+
+ /* //; */
