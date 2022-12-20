@@ -9,17 +9,17 @@ function recordCreator() {
       <h3 class="newplayer">New player</h3>
       <input type="text" class="input" placeholder="type a name..."/>
       <div class="selection-photo">
-        <img src="./Photos/cryptopunks/cp14.png" id="14" class="photo" />
+        <img src="./Archivos/Marciano_3" id="14" class="photo" />
         <div class="selection">
           <!-- Up button -->
           <div class="arrow-up"
             id="up"
-            onClick="photoChoiceUp(this)">.
+            onClick="./Archivos/dropup.png">.
           </div>
           <!-- Down button -->
           <div class="arrow-down"
             id="down"
-            onClick="photoChoiceDown(this)">.
+            onClick="./Archivos/dropdow.png">.
           </div>
         </div>
       </div>

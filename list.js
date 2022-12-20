@@ -13,7 +13,7 @@ let coderList = [
     },
     {
         name:"CLAUDETTE",
-        img:"Archivos/Marciano3.png",
+        img:"Archivos/Marciano_3.png",
         id:2,
         life: true
     },
@@ -31,7 +31,7 @@ let coderList = [
     },
     {
         name:"MARY",
-        img:"Archivos/Marciano3.png",
+        img:"Archivos/Marciano_3.png",
         id:5,
         life: true
     },
@@ -49,7 +49,7 @@ let coderList = [
     },
     {
         name:"ROSIMERY",
-        img:"Archivos/Marciano3.png",
+        img:"Archivos/Marciano_3.png",
         id:8,
         life: true
     },
@@ -67,7 +67,7 @@ let coderList = [
     },
     {
         name:"DELIA",
-        img:"Archivos/Marciano3.png",
+        img:"Archivos/Marciano_3.png",
         id:11,
         life: true
     },
@@ -85,7 +85,7 @@ let coderList = [
     },
     {
         name:"AINHOA",
-        img:"Archivos/Marciano3.png",
+        img:"Archivos/Marciano_3.png",
         id:14,
         life: true
     },
@@ -103,7 +103,7 @@ let coderList = [
     },
     {
         name:"MARTA",
-        img:"Archivos/Marciano3.png",
+        img:"Archivos/Marciano_3.png",
         id:17,
         life: true
     },
@@ -121,7 +121,7 @@ let coderList = [
     },
     {
         name:"ANYI",
-        img:"Archivos/Marciano3.png",
+        img:"Archivos/Marciano_3.png",
         id:20,
         life: true
     },
@@ -139,7 +139,7 @@ let coderList = [
     },
     {
         name:"ANA",
-        img:"Archivos/Marciano3.png",
+        img:"Archivos/Marciano_3.png",
         id:23,
         life: true
     },{
@@ -156,7 +156,7 @@ let coderList = [
     },
     {
         name:"MIRIAN",
-        img:"Archivos/Marciano3.png",
+        img:"Archivos/Marciano_3.png",
         id:26,
         life: true
     },

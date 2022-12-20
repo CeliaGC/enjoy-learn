@@ -16,6 +16,7 @@
     .new-player-pop-up h3 {
     margin-top: 3rem;
     }
+    
     ::placeholder {
     font-size: 16px;
     }
@@ -91,6 +92,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
     }
     .selection-photo {
     display: flex;
