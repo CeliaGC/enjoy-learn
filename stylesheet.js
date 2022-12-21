@@ -1,212 +1,263 @@
 
-/*let play = document.querySelector(".btPlay");
-let contenedores = document.querySelectorAll(".player");
-let María = document.querySelector('#María')
-
-
-
-btPlay.addEventListener("click", ())=> {
-    María.innerHtml 
-
-    document.getElementById('María').style.background= "aquamarine"
-    document.getElementById('María')
-    
-}
-
-document.getElementById("capaVideo2").style.background="green" ;
-document.getElementById("capaVideo").style.background="grey" ;
-
-
-function functionplay() {}
-
-function winner() {
-
-    let nameList = document.querySelectorAll('.player');
-    let players = [...nameList].map(element => element.textContent);
-    let sort = Math.floor(Math.random() * players.length);
-    let grabbed = document.querySelectorAll('.player').textContent;
-    if(grabbed = sort) {
-        grabbed.style.color = "green";
-        
-    } 
-
-     let sort = Math.floor(Math.random() * players.length)
-    console.log(sort)
-
-    function winner() {
-La buena:
-    let nameList = document.querySelectorAll('.player');
-    let players = [...nameList].map(element => element.textContent);
-    return Math.floor((Math.random() * players.length - 1)+1);
-
-}
-}
-
 let coderList = [
-  {
-    name: "Celia",
-    id: 0,
-    life: true
-  },
-  {
-    name: "Diana",
-    id: 1,
-    life: true
-  },
-  {
-      name:"Maria",
-      id:2,
-      life: true
-  },
-  {
-      name:"Míriam",
-      id:3,
-      life: true
-  },
-  {
-      name:"Anya",
-      img:"Photos/cryptopunks/cp32.png",
-      id:4,
-      life: true
-  },
-  {
-      name:"Alex",
-      img:"Photos/cryptopunks/cp03.png",
-      id:5,
-      life: true
-  },
-  {
-      name:"Bertha",
-      img:"Photos/cryptopunks/cp11.png",
-      id:6,
-      life: true
-  },
-  {
-      name:"Franco",
-      img:"Photos/cryptopunks/cp16.png",
-      id:7,
-      life: true
-  },
-  {
-      name:"Martin",
-      img:"Photos/cryptopunks/cp17.png",
-      id:8,
-      life: true
-  },
-  {
-      name:"Salomon",
-      img:"Photos/cryptopunks/cp13.png",
-      id:9,
-      life: true
-  },
-  {
-      name:"Amr",
-      img:"Photos/cryptopunks/cp25.png",
-      id:10,
-      life: true
-  },
-  {
-      name:"Andrea C",
-      img:"Photos/cryptopunks/cp19.png",
-      id:11,
-      life: true
-  },
-  {
-      name:"Andrea E",
-      img:"Photos/cryptopunks/cp23.png",
-      id:12,
-      life: true
-  },
-  {
-      name:"Jael",
-      img:"Photos/cryptopunks/cp14.png",
-      id:13,
-      life: true
-  },
-  {
+    {
+        name: "MARCOS",
+        img: "Archivos/marcianitas/Marciano1.png",
+        id: 0,
+        life: true
+    },
+    {
+        name: "MARGARITA",
+        img: "Archivos/marcianitas/Marciano2.png",
+        id: 1,
+        life: true
+    },
+    {
+        name:"CLAUDETTE",
+        img:"Archivos/marcianitas/Marciano3.png",
+        id:2,
+        life: true
+    },
+    {
+        name:"MAGDALENA",
+        img:"Archivos/marcianitas/Marciano1.png",
+        id:3,
+        life: true
+    },
+    {
+        name:"ALDARA",
+        img:"Archivos/marcianitas/Marciano2.png",
+        id:4,
+        life: true
+    },
+    {
+        name:"MARY",
+        img:"Archivos/marcianitas/Marciano3.png",
+        id:5,
+        life: true
+    },
+    {
+        name:"ROCIO",
+        img:"Archivos/marcianitas/Marciano1.png",
+        id:6,
+        life: true
+    },
+    {
+        name:"CELE",
+        img:"Archivos/marcianitas/Marciano2.png",
+        id:7,
+        life: true
+    },
+    {
+        name:"ROSIMERY",
+        img:"Archivos/marcianitas/Marciano3.png",
+        id:8,
+        life: true
+    },
+    {
+        name:"CARMEN",
+        img:"Archivos/marcianitas/Marciano1.png",
+        id:9,
+        life: true
+    },
+    {
+        name:"JENNIFER",
+        img:"Archivos/marcianitas/Marciano2.png",
+        id:10,
+        life: true
+    },
+    {
+        name:"DELIA",
+        img:"Archivos/marcianitas/Marciano3.png",
+        id:11,
+        life: true
+    },
+    {
+        name:"NOHE",
+        img:"Archivos/marcianitas/Marciano1.png",
+        id:12,
+        life: true
+    },
+    {
+        name:"EVA",
+        img:"Archivos/marcianitas/Marciano2.png",
+        id:13,
+        life: true
+    },
+    {
+        name:"AINHOA",
+        img:"Archivos/marcianitas/Marciano3.png",
+        id:14,
+        life: true
+    },
+    {
+        name:"MIRIAM",
+        img:"Archivos/marcianitas/Marciano1.png",
+        id:15,
+        life: true
+    },
+    {
+        name:"MILA",
+        img:"Archivos/marcianitas/Marciano2.png",
+        id:16,
+        life: true
+    },
+    {
+        name:"MARTA",
+        img:"Archivos/marcianitas/Marciano3.png",
+        id:17,
+        life: true
+    },
+    {
+        name:"MARIA",
+        img:"Archivos/marcianitas/Marciano1.png",
+        id:18,
+        life: true
+    },
+    {
+        name:"ROSIBEL",
+        img:"Archivos/marcianitas/Marciano2.png",
+        id:19,
+        life: true
+    },
+    {
+        name:"ANYI",
+        img:"Archivos/marcianitas/Marciano3.png",
+        id:20,
+        life: true
+    },
+    {
+        name:"CELIA",
+        img:"Archivos/marcianitas/Marciano1.png",
+        id:21,
+        life: true
+    },
+    {
+        name:"DIANA",
+        img:"Archivos/marcianitas/Marciano2.png",
+        id:22,
+        life: true
+    },
+    {
+        name:"ANA",
+        img:"Archivos/marcianitas/Marciano3.png",
+        id:23,
+        life: true
+    },{
+        name:"PAOLA",
+        img:"Archivos/marcianitas/Marciano1.png",
+        id:24,
+        life: true
+    },
+    {
+        name:"SERGIO",
+        img:"Archivos/marcianitas/Marciano2.png",
+        id:25,
+        life: true
+    },
+    {
+        name:"MIRIAN",
+        img:"Archivos/marcianitas/Marciano3.png",
+        id:26,
+        life: true
+    }
+];
 
-   
-*/  
-
-Sorteo
-
-const botonGo = document.querySelector(".btPlay")
-
-function winner() {
-
-    let coderList = [
-        {
-          name: "Celia",
-          id: 0,
-          life: true
-        },
-        {
-          name: "Diana",
-          id: 1,
-          life: true
-        },
-        {
-            name:"Maria",
-            id:2,
-            life: true
-        },
-        {
-            name:"Míriam",
-            id:3,
-            life: true
-        },
-    
-    ]
-    console.log(Math.floor((Math.random() * coderList.length - 1)+1));
-
-}
-botonGo.addEventListener("click", winner)
+let addMartian = document.getElementById('addMartian');
 
 
-// AÑADIR PARTICIPANTE
-function change() {
-    let newSquare = "<div class='redSquare'></div>";
-    let articleElement = document.querySelector('article');
-    articleElement.innerHTML += newSquare;
-}
+for (let i= 0; i < 27; i++) {
+    var divElement = document.createElement("div");
+    var imgElement = document.createElement("img");
+    var pElement = document.createElement("p");
 
+    divElement.id = "divItem" + (i + 1);
+    imgElement.id = "hItem" + (i + 1);
+    pElement.id = "pItem" + (i + 1);
 
-
-
-// BOTON TRASH
-
-function renderCross() {
-    let arrayDelete = document.querySelectorAll('.delete')
-    for (let i=0; i<arrayDelete.length; i++) {
-        if (arrayDelete[i].style.display == "none") {
-            arrayDelete[i].style.display = "block";
-        }
-        else if (arrayDelete[i].style.display == "block") {
-            arrayDelete[i].style.display = 'none';
-        }
+     imgElement.innerHTML = `<img src='Archivos/marcianitas.png></img>`;
+     pElement.innerText =  coderList.map(player => player.name);
+        
     }
 
+
+   addMartian.appendChild(divElement);
+    divElement.appendChild(pElement);
+    divElement.appendChild(imgElement);
+   
+   
+
+
+
+
+
+
+
+
+
+/*function printCoders(array) {
+    let codersPrinted = "";
+    array.forEach(item => {
+        codersPrinted += `<div class="ctCoders" data-set="${item.id}"><h2>${item.name}</h2>
+    <img src="${item.img}" alt="freakCoder" class="freakCoder">
+    <img src="img/telonCoders.jpg" alt="stage" class="stage">
+    <img src="img/barril.png" alt ="barril" class="barril">
+    <img src="img/telonClose.png" alt ="telon cerrado" class="telon">
+    </div>`
+    });
+
+    document.querySelector(".ctFichas").innerHTML = codersPrinted;
+};
+
+
+
+function printPlayers(array) {
+    coderList.forEach(player => {
+        playersPrinted = `<article id="addMartian" data-set="${player.id}"><h2>${player.name}</h2>
+        <img src="${player.img}" alt="martianList" class="martianList">`
+    });
 }
+addMartian.innerHTML += `<div><h2>${name}</h2></div>`;
 
-// ELECCION PARTICIPANTE ALEATORIO
-const array_players = 
-[
-    'Celia' ,
-    'Maria' ,
-    'Diana' ,
-    'Miriam'
-]
+import { coderList } from "./Celia";
+*/
 
-document.querySelector("#btn-agregar").addEventListener("click", agregar);
+ 
 
-function agregar() {
-    let nombre = document.querySelector('#nombre').value;
+// LA GARRA TE HA ELEGIDO 
 
-    // agrego elemento al array
-    array_players.push(nombre);
-    console.log(array_players);
+/*
 
-    // vaciar el input
-    document.querySelector('#nombre').value = "";
-    
+if(document.getElementById("btPlay")){
+    var modal = document.getElementById("myModal");
+    var btn = document.getElementById("btPlay");
+    var span = document.getElementsByClassName("close")[0];
+    var body = document.getElementsByTagName("body")[0];
+
+    btn.onclick = function() {
+        modal.style.display = "block";
+
+        body.style.position = "static";
+        body.style.height = "100%";
+        body.style.overflow = "hidden";
+    }
+
+    span.onclick = function() {
+        modal.style.display = "none";
+
+        body.style.position = "inherit";
+        body.style.height = "auto";
+        body.style.overflow = "visible";
+    }
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+
+            body.style.position = "inherit";
+            body.style.height = "auto";
+            body.style.overflow = "visible";
+        }
+    }
 }
+*/
