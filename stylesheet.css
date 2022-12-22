@@ -3,7 +3,7 @@
 body {
     height: 100vh;
     width: 100vw;
-    background-image: url(Archivos//Fondo\ de\ ruleta.webp);
+    background-image: url(Archivos//fondopizza.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -40,7 +40,7 @@ footer {
 .buttonsBar {
     background-color: rgba(11, 119, 41, 0.48);
     height: 1.6875rem;
-    width: 5rem;
+    width: 7rem;
     border: top width 1px;
     border-color: white;
     border-radius: 0.625rem;
@@ -63,8 +63,8 @@ article {
 }
 
 article div{
-  height: 7rem;
-  width: 7rem;
+  height: 6rem;
+  width: 6rem;
   color: white;
   justify-content: center;
 }
@@ -73,61 +73,53 @@ header {
   grid-row-start: 1;
   grid-row-end: 4;
 }
-  
-/* SALIR EL GANADOR  */
 
-  /* h2*/
-  .h2 {
-    font-family: Arial, Helvetica, Sans-serif;
-    color: white;
-    font-size: 30px;
-    text-align: center;   
+#newPlayer {
+  background-image: url(Archivos/marcianitas/Marciano1.png);
+  background-repeat: no-repeat;
+  background-size: 3rem;
+  background-position: bottom left;
+}
+
+#newPlayer p {
+ height: fit-content;
+ margin:0%;
+ padding-top: .9375rem;
+
+}
+
+#ganador {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  text-justify: auto;
+  background-image: url(Archivos/garras/LA\ GARRA\ TE\ HA\ ELEGIDO\ 5.png);
+  background-repeat: no-repeat;
+}
+
+#ganador h1{
+  height:fit-content;
+}
+
+@media (max-width: 768px) {
+  body {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
   }
 
-    /* p*/
-.p {
-      font-family: Arial, Helvetica, Sans-serif;
-      color: white;
-      font-size: 30px;
-      text-align: center;
-    }
+  main {
+    height: 70%;
+    grid-template-rows: min-content;
 
- /*SALIR EL GANADOR*/
+  }
 
-.modalContainer {
-  display: none; 
-  position: fixed; 
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%; 
-  overflow: auto; 
-  background-color: rgb(243, 13, 13);
-  background-color: rgba(8, 8, 8, 0.4);
-}
+  footer {
+    height: 30%;
+  }
 
-.modalContainer .modal-content {
-  background-color: #04272c;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid rgb(27, 26, 26);
-  width: 60%;
-  background-image: url(Archivos/LA\ GARRA\ TE\ HA\ ELEGIDO\ 5.png);
-  background-size: cover;
-}
-
-.modalContainer .close {
-  color: #dd1818;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.modalContainer .close:hover,
-.modalContainer .close:focus {
-  color: rgb(17, 17, 17);
-  text-decoration: none;
-  cursor: pointer;
+  footer h1{
+    margin:0%;
+    font-size: 5.9375rem;
+  }
 }

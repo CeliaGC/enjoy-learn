@@ -49,7 +49,7 @@ let coderList = [
         life: true
     },
     {
-        name:"ROSIMERY",
+        name:"ROSMERY",
         img:"Archivos/marcianitas/Marciano3.png",
         id:8,
         life: true
@@ -156,7 +156,7 @@ let coderList = [
         life: true
     },
     {
-        name:"MIRIAN",
+        name:"MIRIAM Q",
         img:"Archivos/marcianitas/Marciano3.png",
         id:26,
         life: true
@@ -166,12 +166,13 @@ let coderList = [
 let addMartian = document.getElementById('addMartian');
 
 
-for (let i= 0; i < 27; i++) {
+for (let i= 0; i < coderList.length; i++) {
     var divElement = document.createElement("div");
     var imgElement = document.createElement("img");
     var pElement = document.createElement("p");
 
     divElement.id = "divItem" + (i + 1);
+    divElement.className = "player";
     imgElement.id = "imgItem" + (i + 1);
     pElement.id = "pItem" + (i + 1);
     pElement.innerText = coderList[i].name;
@@ -180,15 +181,34 @@ for (let i= 0; i < 27; i++) {
     addMartian.appendChild(divElement);
     divElement.appendChild(pElement);
     divElement.appendChild(imgElement);
-}   
+
+}
+   
+
+function add() {
+        let martianName = "PEPPA PIG";
+        coderList.push({name: martianName, img: 'Archivos\marcianitas\Marciano3.png', id:coderList.length + 1});
+        var divElement = document.createElement("div");
+        var pElement = document.createElement("p");
+        pElement.innerText = martianName;
+        divElement.id = "newPlayer";
+        addMartian.appendChild(divElement);
+        divElement.appendChild(pElement);
+}
+
+
+
    
 function winner() {
+
     let nameList = coderList.map(player => player.name);
     let grab = Math.floor(Math.random() * nameList.length - 1)+1;
-    let ganador = coderList.forEach(element => { if(element.id == grab){
-    return element.name;
+    coderList.forEach(element => { if(element.id == grab){
+    addMartian.hidden;
+    addMartian.innerHTML = `<div id="ganador"><h1>${element.name},</h1><br><h2>¡La garra te ha elegido!<br>!OOOOOOOOOOOOOOOOOOOH!</div>`;
+    
     }});
-    return ganador;
+   
 }
 
 const botonGo = document.querySelector("#btPlay")
@@ -197,73 +217,3 @@ botonGo.addEventListener("click", winner)
 
 
 
-
-
-
-
-/*function printCoders(array) {
-    let codersPrinted = "";
-    array.forEach(item => {
-        codersPrinted += `<div class="ctCoders" data-set="${item.id}"><h2>${item.name}</h2>
-    <img src="${item.img}" alt="freakCoder" class="freakCoder">
-    <img src="img/telonCoders.jpg" alt="stage" class="stage">
-    <img src="img/barril.png" alt ="barril" class="barril">
-    <img src="img/telonClose.png" alt ="telon cerrado" class="telon">
-    </div>`
-    });
-
-    document.querySelector(".ctFichas").innerHTML = codersPrinted;
-};
-
-
-
-function printPlayers(array) {
-    coderList.forEach(player => {
-        playersPrinted = `<article id="addMartian" data-set="${player.id}"><h2>${player.name}</h2>
-        <img src="${player.img}" alt="martianList" class="martianList">`
-    });
-}
-addMartian.innerHTML += `<div><h2>${name}</h2></div>`;
-
-import { coderList } from "./Celia";
-*/
-
- 
-
-// LA GARRA TE HA ELEGIDO 
-
-/*
-
-if(document.getElementById("btPlay")){
-    var modal = document.getElementById("myModal");
-    var btn = document.getElementById("btPlay");
-    var span = document.getElementsByClassName("close")[0];
-    var body = document.getElementsByTagName("body")[0];
-
-    btn.onclick = function() {
-        modal.style.display = "block";
-
-        body.style.position = "static";
-        body.style.height = "100%";
-        body.style.overflow = "hidden";
-    }
-
-    span.onclick = function() {
-        modal.style.display = "none";
-
-        body.style.position = "inherit";
-        body.style.height = "auto";
-        body.style.overflow = "visible";
-    }
-
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-
-            body.style.position = "inherit";
-            body.style.height = "auto";
-            body.style.overflow = "visible";
-        }
-    }
-}
-*/
