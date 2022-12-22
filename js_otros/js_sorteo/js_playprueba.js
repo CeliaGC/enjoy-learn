@@ -159,6 +159,7 @@ let coderList = [
 }
    
 */  
+/*
 
 const botonGo = document.querySelector("#btPlay")
 
@@ -471,7 +472,7 @@ let coderList = [
 
 // AÑADIR PARTICIPANTE
 
-let coderList = [
+/*let coderList = [
     {
         name: "MARCOS",
         img: "Archivos/Marciano1.png",
@@ -685,3 +686,4 @@ function agregar() {
     document.querySelector('#nombre').value = "";
     
 }
+*/

@@ -172,21 +172,27 @@ for (let i= 0; i < 27; i++) {
     var pElement = document.createElement("p");
 
     divElement.id = "divItem" + (i + 1);
-    imgElement.id = "hItem" + (i + 1);
+    imgElement.id = "imgItem" + (i + 1);
     pElement.id = "pItem" + (i + 1);
+    pElement.innerText = coderList[i].name;
+    imgElement.src= coderList[i].img;
 
-     imgElement.innerHTML = `<img src='Archivos/marcianitas.png></img>`;
-     pElement.innerText =  coderList.map(player => player.name);
-        
-    }
-
-
-   addMartian.appendChild(divElement);
+    addMartian.appendChild(divElement);
     divElement.appendChild(pElement);
     divElement.appendChild(imgElement);
+}   
    
-   
+function winner() {
+    let nameList = coderList.map(player => player.name);
+    let grab = Math.floor(Math.random() * nameList.length - 1)+1;
+    let ganador = coderList.forEach(element => { if(element.id == grab){
+    return element.name;
+    }});
+    return ganador;
+}
 
+const botonGo = document.querySelector("#btPlay")
+botonGo.addEventListener("click", winner)
 
 
 

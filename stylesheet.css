@@ -1,11 +1,8 @@
-html {
-  height: 100%;
-  width: 100%;
-}
+
 
 body {
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     background-image: url(Archivos//Fondo\ de\ ruleta.webp);
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,6 +22,11 @@ main {
 footer {
   height: 10%;
   width: 100%;
+  color: white;
+  font-size: 3.125rem;
+  text-align: center;
+  -webkit-text-stroke: .1875rem black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
   #buttons {
@@ -56,15 +58,15 @@ article {
     overflow-x: hidden;
     background-color: rgba(255, 255, 255, 0.099);
     border-radius: 0.625rem;
+    align-content: space-around;
 
 }
 
-.coderList {
-  margin: 10px;
-  height: 2.6875rem;
-  width: 2.8125rem;
-  background-image: url('Archivos/marcianitas/Marciano1.png');
- 
+article div{
+  height: 7rem;
+  width: 7rem;
+  color: white;
+  justify-content: center;
 }
 
 header {
