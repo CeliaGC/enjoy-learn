@@ -18,15 +18,20 @@
         </article>
 
         <section id="buttons">
-            <button class= "buttonsBar" id="btPlay" onclick="winner()">PLAY</button>
-            <button class= "buttonsBar" id="btAdd" onClick="add()">NEWPLAYER</button>
-            <button class= "buttonsBar" id="btAgain" onClick="reset()">NEWGAME</button>
-
-            
+            <button class= "buttonsBar" id="btPlay" onclick="audio.play();">PLAY</button>
+            <script type="text/javascript">
+                const audio =new Audio();
+                audio.src="./Archivos/ELEGIDO.MPEG";
+                </script>
+            <!-- <button class= "buttonsBar" id="btPlay" onclick="audio.play();">PLAY</button> -->
+            <button class= "buttonsBar" id="btAdd" onClick="add()">
+                <img src="./Archivos/Marcianitas/Marciano1.png" width="20px" height="22px"> +</button>
+            <button class= "buttonsBar" id="btAgain" onClick="reset()">RESET</button>
         </section>
 
     </main>
     <footer><h1>La Garra de la Suerte</h1></footer>
     <script src="play.js"></script>
+
 </body>
 </html>

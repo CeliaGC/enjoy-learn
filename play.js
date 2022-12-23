@@ -217,10 +217,21 @@ function winner() {
    
 }
 
+const botonGo = document.querySelector("#btPlay")
+botonGo.addEventListener("click", winner)
+
 function reset() {
+    let divPlayer = document.querySelector("#newPlayer");
     addMartian.innerHTML = "";
-    printMartians();   
-}
+    printMartians();
+    coderList.length(-1)
+    coderList.forEach(element => { 
+        if (element.id == 'newPlayer'){
+            divPlayer.innerHTML = "";  
+        }})
+    }      
+    
+
 
 function printMartians() {
     for (let i= 0; i < coderList.length; i++) {
